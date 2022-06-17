@@ -133,7 +133,7 @@ const ProductType = () => {
           </IonCol>
         </IonRow>
 
-        <IonSearchbar color="light" animated={true} style={{"--border-radius": "none"}} placeholder={`Try '${searchPlaceholder}'`} onIonChange={e => performSearch(e)} />
+        <IonSearchbar color="dark" animated={true} style={{"--border-radius": "none"}} placeholder={`Try '${searchPlaceholder}'`} onIonChange={e => performSearch(e)} />
 
         <IonGrid ref={productsRef} className="animate__animated">
           <IonRow>
